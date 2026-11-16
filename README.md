@@ -4,7 +4,7 @@
 
 One-click [Funkwhale](https://www.funkwhale.audio/) for [Railway](https://railway.com): a self-hosted, federated music and podcast server. Upload your music, organise it in libraries and playlists, listen in the browser or in Subsonic apps, and follow other pods over ActivityPub.
 
-**Version:** Funkwhale 2.0.14, from the official images `funkwhale/api` and `funkwhale/front`, pinned by digest in the [`Dockerfile`](Dockerfile).
+**Version:** Funkwhale 2.0.15, from the official images `funkwhale/api` and `funkwhale/front`, pinned by digest in the [`Dockerfile`](Dockerfile).
 
 ## What the template deploys
 

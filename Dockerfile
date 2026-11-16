@@ -1,9 +1,9 @@
 # Funkwhale on Railway: one service that runs the web app (nginx + gunicorn),
 # the Celery worker and Celery beat. Railway volumes can't be shared between
 # services, and all of these need the same media and music folders.
-FROM funkwhale/front:2.0.14@sha256:0bbf4fa2007e2d3b20fa4f7527e16e8cc84a185faa56e376b63968bedf368e49 AS front
+FROM funkwhale/front:2.0.15@sha256:474da38ea297acd0386c280d46a4a82f41f47d400c4092bd4090ad7cca42a1b8 AS front
 
-FROM funkwhale/api:2.0.14@sha256:f7945bf050477bed3490c2bc4f2876a12fe61e8fa9298aff20263a0fb3bbb6df
+FROM funkwhale/api:2.0.15@sha256:1993887868f00c4833d50232156ce9c1660c839cd419aba23b90839ae93f4518
 
 RUN apk add --no-cache nginx
 
