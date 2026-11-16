@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.14-1 (2026-11-16)
+
+- README: Deploy on Railway button for the published template (`funkwhale-1`). No change to the image or the start script.
+
 ## 2.0.14 (2026-11-16)
 
 - First release of the Railway template: Funkwhale 2.0.14 (`funkwhale/api` and `funkwhale/front`, pinned by digest), Railway Postgres and Redis, one volume at `/srv/funkwhale/data`.

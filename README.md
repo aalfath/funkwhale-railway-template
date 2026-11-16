@@ -1,3 +1,5 @@
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/funkwhale-1?utm_medium=integration&utm_source=button&utm_campaign=funkwhale)
+
 # Funkwhale on Railway
 
 One-click [Funkwhale](https://www.funkwhale.audio/) for [Railway](https://railway.com): a self-hosted, federated music and podcast server. Upload your music, organise it in libraries and playlists, listen in the browser or in Subsonic apps, and follow other pods over ActivityPub.
