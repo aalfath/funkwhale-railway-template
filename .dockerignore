@@ -1,0 +1,5 @@
+README.md
+CHANGELOG.md
+.git
+Dockerfile.localtest
+proxy-ca.crt
